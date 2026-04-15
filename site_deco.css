@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(to right, #F3E5F5, #6A317F);
+}
+body {
+  display: flex;   
+  justify-content: flex-start; /* Keeps them both on the left */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Pushes one to the left, one to the right */
+  padding: 20px;
+  gap: 80px;
+}
+
+/* Shared size for both buttons */
+button {
+  width: 580px;
+  height: 560px;
+  border: none;
+  border-radius: 15px; /* Keeps that rounded rectangle look */
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* Individual Colors */
+.btn-orange {
+  background-color: orange;
+}
+
+.btn-yellow {
+  background-color: yellow;
+}
